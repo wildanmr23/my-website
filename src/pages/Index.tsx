@@ -76,7 +76,7 @@ const Index = () => {
           </p>
           <div className="flex gap-4 justify-center mt-8">
             <a href="#projects">
-              <Button variant="outline" size="lg">
+              <Button variant="outline"  className="px-6 py-4">
                 <Eye className="mr-2" />
                 View Projects
               </Button>
@@ -86,7 +86,7 @@ const Index = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button size="lg">
+              <Button className="px-8 py-5">
                 <Phone className="mr-2" />
                 Contact Me
               </Button>
