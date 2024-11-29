@@ -54,7 +54,7 @@ const Index = () => {
       <ThemeToggle />
 
       {/* Hero Section */}
-      <section className="section-padding min-h-screen flex items-center justify-center text-center">
+      <section className="py-16 min-h-screen flex items-center justify-center text-center">
         <div className="animate-fade-in">
           <div className="flex justify-center mb-8">
             <Avatar className="relative w-32 h-32 border-4 border-primary rounded-full overflow-hidden">
@@ -96,7 +96,7 @@ const Index = () => {
       </section>
 
       {/* About Section*/}
-      <section className="section-padding bg-secondary/20">
+      <section className="py-16 bg-secondary/20">
         <div className="container">
           <h2 className="heading text-4xl font-bold text-foreground mb-8">
             About Me
@@ -155,7 +155,7 @@ const Index = () => {
       </section>
 
       {/* Skills Section */}
-      <section className="section-padding">
+      <section className="py-16">
         <div className="container">
           <h2 className="heading">Skills</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -172,7 +172,7 @@ const Index = () => {
       </section>
 
       {/* Projects Section */}
-      <section className="section-padding bg-secondary/20" id="projects">
+      <section className="py-16 bg-secondary/20" id="projects">
         <div className="container">
           <h2 className="heading">Featured Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -216,7 +216,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="section-padding">
+      <section className="py-16">
         <div className="container text-center">
           <h2 className="heading">Get In Touch</h2>
           <p className="subheading">Let's work together on your next project</p>
